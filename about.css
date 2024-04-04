@@ -1,0 +1,15 @@
+.about {
+    font-size: 50px;
+    text-align: center;
+}
+.aboutline{
+    font-size: 60px;
+     padding-left: 30px;
+
+}
+body{
+    background-image:url(https://i.pinimg.com/originals/f2/05/52/f2055287869555b7efa535223ddc059a.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
