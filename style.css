@@ -1,0 +1,46 @@
+body{
+background-image: url(https://www.crmsoftwareblog.com/wp-content/uploads/businesswoman-in-office-using-microsoft-software.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.title {
+    width: 100px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header {
+    border: 5px solid darkorchid;
+    background-image: url(https://wallpapercave.com/wp/rhxPdQZ.jpg) ;
+    
+}
+.logo {
+    font-size: 60px;
+    text-align:center;
+    padding-right: 450px;
+    padding-left: 200px;
+}
+.home , .jobseeker , .about , .recruiterpost {
+padding-right: 20px;
+font-size: 35px;
+text-align: right;
+}
+.home :hover , .jobseeker :hover , .about :hover , .recruiterpost :hover {
+    opacity: 0.5;
+}
+    #form {
+    padding-top: 50px;
+    margin-left: 200px;
+    background-color:rgba(6, 243, 243, 0.5) ;
+    width: 500px;
+    height: 300px;
+    font-size: 25px;
+    text-align: center;
+}
+.formtitle{
+    color: brown;
+    font-family: cursive;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.form{
+    background-color: rgba(181, 53, 231, 0.4);
+    width: 800px;
+    height: 700px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: cursive;
+
+}
+.submit {
+    background-color: rgb(9, 9, 112);
+    color: white;
+}
+body{
+    background-image: url(https://getwallpapers.com/wallpaper/full/4/f/7/135935.jpg);
+}
+input {
+    font-size: 30px; /* Increase font size */
+    height: 35px;
+    margin-bottom: 10px;
+  }
+  aside {
+    font-size: 35px;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+  }
