@@ -1,0 +1,65 @@
+.titlebox{
+    border: 5px solid darkorchid;
+    overflow: hidden;
+  position: relative;
+  background-color: rgba(11, 23, 190, 0.7);
+
+}
+.title{
+    font-size: xx-large;
+padding-right: 8%;}
+ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+font-size: larger;
+}
+.home :hover , .jobseeker :hover , .about :hover , .recruiterpost :hover  {
+    opacity: 0.5;
+}
+button{
+width: 60px;
+height:35px ;}
+.form-control-me-2{
+    height: 35px;
+}
+.home  , .jobseeker  , .about  , .recruiterpost   {
+padding-right: 5%;}
+
+ th, td {
+    border: 1px solid black;
+    
+}
+table {
+    margin-top: 15px;
+    font-size:xx-large;
+}
+.jobpost{
+    padding: 20px;
+    padding-right: 25px;
+
+}
+.location{
+    padding: 30px;
+    padding-right: 25px;
+
+}
+.salary{
+    padding: 30px;
+    padding-right: 25px;
+}
+.job-description{
+    padding: 50px;
+    padding-right: 50px;
+}
+.apply{
+    padding: 30px;
+    padding-right: 25px;
+}
+button{
+    background-color: rgb(14, 14, 155);
+}
+.jobpost , .location , .salary , .job-description , .apply {
+    background-color:grey;
+}

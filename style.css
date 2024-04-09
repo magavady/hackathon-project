@@ -4,28 +4,33 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .title {
-    width: 100px;
 }
 ul{
     list-style: none;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: space-around ;
+    background-image: url(https://wallpapercave.com/wp/wp7213366.jpg) ;
+
+
 }
 header {
+    width: 100%;
     border: 5px solid darkorchid;
-    background-image: url(https://wallpapercave.com/wp/rhxPdQZ.jpg) ;
+    background-image: url(https://wallpapercave.com/wp/wp7213366.jpg)  ;
+    padding-right: 8%;}
     
-}
+    
+
 .logo {
-    font-size: 60px;
+    font-size: xx-large;
     text-align:center;
-    padding-right: 450px;
-    padding-left: 200px;
 }
-.home , .jobseeker , .about , .recruiterpost {
-padding-right: 20px;
-font-size: 35px;
-text-align: right;
+ .home , .jobseeker , .about , .recruiterpost {
+    display: flex;
+    font-size: xx-large;
+    text-align: right;
 }
 .home :hover , .jobseeker :hover , .about :hover , .recruiterpost :hover {
     opacity: 0.5;

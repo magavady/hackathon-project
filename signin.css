@@ -1,6 +1,6 @@
 .form{
     background-color: rgba(181, 53, 231, 0.4);
-    width: 800px;
+    width: 50%;
     height: 700px;
     text-align: center;
     font-size: 30px;
@@ -22,8 +22,8 @@ input {
   }
   aside {
     font-size: 35px;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
+    width: 50%;
+   float: right;
     font-style: italic;
+    position: relative;
   }
